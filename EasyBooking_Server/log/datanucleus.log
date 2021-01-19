@@ -1,0 +1,214 @@
+15:15:42,128 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.3) para el API "JDO" utilisando el JRE "{2}"
+15:15:43,020 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class" con definicion enhanced
+15:15:43,062 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class" con definicion enhanced
+15:15:43,063 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases.
+15:15:45,629 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+15:15:45,631 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+15:15:45,633 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/AuthorizationSytem.jar
+15:15:45,647 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Paypal.jar
+15:15:45,648 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Vueling.jar
+15:15:45,648 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-api-jdo-5.2.4.jar
+15:15:45,648 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-cache-5.1.1.jar
+15:15:45,648 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-core-5.2.3.jar
+15:15:45,652 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-rdbms-5.2.3.jar
+15:15:45,653 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/javax.jdo-3.2.0-m13.jar
+15:15:45,653 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/log4j-1.2.14.jar
+15:15:45,653 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/mysql-connector-java-8.0.20.jar
+15:15:45,653 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin
+15:15:45,658 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/resources
+15:15:50,594 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+15:15:51,143 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+15:15:51,144 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/EBServer.class
+15:15:51,144 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/GatewaySingelton.class
+15:15:51,144 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IAirlineGateway.class
+15:15:51,144 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IberiaGateway.class
+15:15:51,144 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/VuelingGateway.class
+15:15:51,147 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/IloginGateway.class
+15:15:51,148 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/LoginGateway.class
+15:15:51,149 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/IPaymentGateway.class
+15:15:51,151 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/PaymentGateway.class
+15:15:51,152 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/EasyBookingDAO.class
+15:15:51,154 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Flight.class
+15:15:51,155 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightAssambler.class
+15:15:51,155 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightDTO.class
+15:15:51,158 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/IEasyBookingDAO.class
+15:15:51,159 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class
+15:15:51,159 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class
+15:15:51,159 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/IReservationManager.class
+15:15:51,159 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/ReservationManager.class
+15:15:52,057 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+15:16:40,018 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+15:17:26,362 (RMI TCP Connection(3)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.User" (id="server.datanucleous.User:haizearodriguez") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+15:18:12,385 (RMI TCP Connection(5)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.Reservation" (id="server.datanucleous.Reservation:2") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+15:20:25,451 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:06:07,048 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:45:31,709 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:52:33,987 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+16:55:09,046 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:12:56,535 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:34:19,510 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.3) para el API "JDO" utilisando el JRE "{2}"
+17:34:20,548 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class" con definicion enhanced
+17:34:20,601 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class" con definicion enhanced
+17:34:20,604 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases.
+17:34:22,745 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+17:34:22,750 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:34:22,750 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/AuthorizationSytem.jar
+17:34:22,750 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Paypal.jar
+17:34:22,751 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Vueling.jar
+17:34:22,752 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-api-jdo-5.2.4.jar
+17:34:22,767 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-cache-5.1.1.jar
+17:34:22,769 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-core-5.2.3.jar
+17:34:22,769 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-rdbms-5.2.3.jar
+17:34:22,769 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/javax.jdo-3.2.0-m13.jar
+17:34:22,771 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/log4j-1.2.14.jar
+17:34:22,771 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/mysql-connector-java-8.0.20.jar
+17:34:22,771 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin
+17:34:22,771 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/resources
+17:34:27,808 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:34:28,486 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:34:28,486 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/EBServer.class
+17:34:28,486 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/GatewaySingelton.class
+17:34:28,487 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IAirlineGateway.class
+17:34:28,487 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IberiaGateway.class
+17:34:28,491 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/VuelingGateway.class
+17:34:28,493 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/IloginGateway.class
+17:34:28,494 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/LoginGateway.class
+17:34:28,494 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/IPaymentGateway.class
+17:34:28,494 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/PaymentGateway.class
+17:34:28,509 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/EasyBookingDAO.class
+17:34:28,509 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Flight.class
+17:34:28,509 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightAssambler.class
+17:34:28,509 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightDTO.class
+17:34:28,509 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/IEasyBookingDAO.class
+17:34:28,616 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class
+17:34:28,617 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class
+17:34:28,619 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/IReservationManager.class
+17:34:28,619 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/ReservationManager.class
+17:34:29,874 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:34:37,429 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:35:41,295 (RMI TCP Connection(3)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.Reservation" (id="server.datanucleous.Reservation:4") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+17:37:44,514 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.3) para el API "JDO" utilisando el JRE "{2}"
+17:37:45,847 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class" con definicion enhanced
+17:37:45,931 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class" con definicion enhanced
+17:37:45,934 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases.
+17:37:49,915 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/AuthorizationSytem.jar
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Paypal.jar
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Vueling.jar
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-api-jdo-5.2.4.jar
+17:37:49,916 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-cache-5.1.1.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-core-5.2.3.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-rdbms-5.2.3.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/javax.jdo-3.2.0-m13.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/log4j-1.2.14.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/mysql-connector-java-8.0.20.jar
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin
+17:37:49,917 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/resources
+17:38:02,523 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:38:03,929 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:38:03,929 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/EBServer.class
+17:38:03,930 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/GatewaySingelton.class
+17:38:03,931 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IAirlineGateway.class
+17:38:03,933 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IberiaGateway.class
+17:38:03,934 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/VuelingGateway.class
+17:38:03,937 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/IloginGateway.class
+17:38:03,938 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/LoginGateway.class
+17:38:03,938 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/IPaymentGateway.class
+17:38:03,938 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/PaymentGateway.class
+17:38:03,939 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/EasyBookingDAO.class
+17:38:03,945 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Flight.class
+17:38:03,950 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightAssambler.class
+17:38:03,951 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightDTO.class
+17:38:03,951 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/IEasyBookingDAO.class
+17:38:03,951 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class
+17:38:03,951 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class
+17:38:03,952 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/IReservationManager.class
+17:38:03,952 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/ReservationManager.class
+17:38:05,458 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:38:17,084 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:39:27,261 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.3) para el API "JDO" utilisando el JRE "{2}"
+17:39:28,151 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class" con definicion enhanced
+17:39:28,186 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class" con definicion enhanced
+17:39:28,187 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases.
+17:39:30,838 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+17:39:30,841 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:39:30,841 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/AuthorizationSytem.jar
+17:39:30,841 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Paypal.jar
+17:39:30,842 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Vueling.jar
+17:39:30,842 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-api-jdo-5.2.4.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-cache-5.1.1.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-core-5.2.3.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-rdbms-5.2.3.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/javax.jdo-3.2.0-m13.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/log4j-1.2.14.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/mysql-connector-java-8.0.20.jar
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin
+17:39:30,843 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/resources
+17:39:37,399 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:39:38,407 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:39:38,407 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/EBServer.class
+17:39:38,407 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/GatewaySingelton.class
+17:39:38,407 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IAirlineGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IberiaGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/VuelingGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/IloginGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/LoginGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/IPaymentGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/PaymentGateway.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/EasyBookingDAO.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Flight.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightAssambler.class
+17:39:38,408 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightDTO.class
+17:39:38,412 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/IEasyBookingDAO.class
+17:39:38,414 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class
+17:39:38,414 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class
+17:39:38,416 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/IReservationManager.class
+17:39:38,417 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/ReservationManager.class
+17:39:39,251 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:39:51,982 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:40:39,344 (RMI TCP Connection(3)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.User" (id="server.datanucleous.User:unai@opendeusto.es") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+17:41:26,074 (RMI TCP Connection(4)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.Reservation" (id="server.datanucleous.Reservation:5") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+17:42:34,681 (RMI TCP Connection(6)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.Reservation" (id="server.datanucleous.Reservation:6") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+17:44:06,066 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (versión 5.2.3) para el API "JDO" utilisando el JRE "{2}"
+17:44:07,552 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class" con definicion enhanced
+17:44:07,686 (main) INFO  [DataNucleus.Enhancer] - Escribiendo el archivo de clase "/Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class" con definicion enhanced
+17:44:07,744 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer ha terminado con exito para 2 clases.
+17:44:12,215 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Creación del esquema para clases
+17:44:12,241 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Classpath
+17:44:12,242 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/AuthorizationSytem.jar
+17:44:12,242 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Paypal.jar
+17:44:12,243 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/Vueling.jar
+17:44:12,246 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-api-jdo-5.2.4.jar
+17:44:12,246 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-cache-5.1.1.jar
+17:44:12,247 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-core-5.2.3.jar
+17:44:12,247 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/datanucleus-rdbms-5.2.3.jar
+17:44:12,248 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/javax.jdo-3.2.0-m13.jar
+17:44:12,248 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/log4j-1.2.14.jar
+17:44:12,248 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/lib/mysql-connector-java-8.0.20.jar
+17:44:12,248 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin
+17:44:12,248 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/resources
+17:44:30,141 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:44:33,207 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool : Ficheros
+17:44:33,207 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/EBServer.class
+17:44:33,211 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/GatewaySingelton.class
+17:44:33,211 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IAirlineGateway.class
+17:44:33,212 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/IberiaGateway.class
+17:44:33,215 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAirline/VuelingGateway.class
+17:44:33,218 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/IloginGateway.class
+17:44:33,221 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayAuthorization/LoginGateway.class
+17:44:33,273 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/IPaymentGateway.class
+17:44:33,274 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/GatewayPayment/PaymentGateway.class
+17:44:33,343 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/EasyBookingDAO.class
+17:44:33,344 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Flight.class
+17:44:33,344 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightAssambler.class
+17:44:33,344 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/FlightDTO.class
+17:44:33,345 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/IEasyBookingDAO.class
+17:44:33,345 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/Reservation.class
+17:44:33,345 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/datanucleous/User.class
+17:44:33,346 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/IReservationManager.class
+17:44:33,346 (main) INFO  [DataNucleus.SchemaTool] - >>  /Users/Haizea/Desktop/SD/eclipse-workspace/EasyBookingServer/bin/server/remote/ReservationManager.class
+17:44:35,337 (main) INFO  [DataNucleus.SchemaTool] - DataNucleus SchemaTool ha terminado con exito
+17:45:01,365 (main) WARN  [DataNucleus.Datastore] - Default type for java type of java.math.BigInteger was previously jdbc-type=NUMERIC but this is not provided by the JDBC driver! Please report this to the DataNucleus developers
+17:53:36,265 (RMI TCP Connection(4)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.User" (id="server.datanucleous.User:h@opendeusto.es") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
+17:54:33,573 (RMI TCP Connection(5)-192.168.0.4) WARN  [DataNucleus.Persistence] - El objeto "server.datanucleous.Reservation" (id="server.datanucleous.Reservation:7") va a ser detachado (con la opcion DetachAllOnCommit?) pero no es detachable, por eso vamos a hacerlo transient
